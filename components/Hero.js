@@ -10,25 +10,28 @@ const Hero = () => {
 
   return (
     <div className="text-white">
-      <div className="absolute left-0 top-20 bg-contain bg-no-repeat w-40 h-40 bg-[url('../assets/firsthand.webp')]">
+      <div className="absolute left-0 top-20 bg-contain bg-no-repeat w-40 h-40 md:w-64 md:h-64  bg-[url('../assets/firsthand.webp')]">
         {' '}
       </div>
-      <div className="pt-[12rem] pl-12 ">
-        <div className="max-w-xl ">
-          <p className="text-4xl leading-10 ">
-            Hi I am <span className="text-violet-800">Pranoy</span>
+      <div className="pt-[13.5rem] pl-10 md:pl-28 ">
+        <div className="max-w-2xl ">
+          <p className="text-[45px] md:text-7xl leading-[55px] md:leading-16 ">
+            Hi I am <span id="name">Pranoy</span>
           </p>
-          <p className="text-4xl leading-10">Front End Developer</p>
-          <p className="text-xl leading-10">
-            Turning ideas into real life <span>projects</span> is my calling
+          <p className="text-[45px] md:text-7xl leading-[55px] md:leading-16">
+            Front End Developer
+          </p>
+          <p className="text-3xl md:text-4xl leading-12 md:leading-16">
+            Turning ideas into real life <span id="products">projects</span> is
+            my calling
           </p>
         </div>
-        <div className="pt-20 max-w-[7rem]">
-          <p className="text-[14px] cursor-pointer">VIEW PROJETCS</p>
-          <div className="border-b max-w-[2rem] pt-1 hover:max-w-[6rem] ease-in duration-500"></div>
+        <div className="pt-20 max-w-[8rem] group">
+          <p className="text-[16px] leading-8 cursor-pointer">VIEW PROJETCS</p>
+          <div className="border-b max-w-[2rem] pt-1 group-hover:max-w-[7rem] ease-out duration-500"></div>
         </div>
         <div className="flex justify-between">
-          <div className="pt-28 " onClick={() => setIsOpen(!isOpen)}>
+          <div className="pt-20 " onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? (
               <div className="relative cursor-pointer">
                 <BiToggleRight className="w-[3.5rem] h-[3.5rem]" />
@@ -45,20 +48,20 @@ const Hero = () => {
               </div>
             )}
           </div>
-          <div className="flex pt-28">
-            <div className="w-7 h-7">
+          <div className="flex space-x-6 pt-24 mr-8 md:mr-20">
+            <div className="w-7 h-7 cursor-pointer">
               <Image src={github} />
             </div>
-            <div className="w-7 h-7">
+            <div className="w-7 h-7 cursor-pointer">
               <Image src={linkedin} />
             </div>
-            <div className="w-7 h-7">
+            <div className="w-7 h-7 cursor-pointer">
               <Image src={instagram} />
             </div>
           </div>
         </div>
       </div>
-      <div className="absolute -right-24 top-[15rem] bg-contain bg-no-repeat w-60 h-60 bg-[url('../assets/secondhand.webp')]">
+      <div className="absolute right-0 bg-right top-[28rem] md:top-[24rem] bg-contain bg-no-repeat w-40 md:w-80 h-40 md:h-80 bg-[url('../assets/secondhand.webp')]">
         {' '}
       </div>
     </div>

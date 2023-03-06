@@ -29,3 +29,27 @@ a {
     background: black;
   }
 }
+#name {
+  background: linear-gradient(90deg, #4beecb, #e4f07a, #f8f7b7, #4beecb);
+  background-size: 800%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 10s ease infinite;
+}
+
+#products {
+  background: linear-gradient(90deg, #6fc1f7, #ce5be7, #b07aec, #6fc1f7);
+  background-size: 800%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 10s ease infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
