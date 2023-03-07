@@ -7,10 +7,10 @@ import Slider from 'react-slick';
 import javascript from '../assets/JS.png';
 import react from '../assets/react.png';
 import typescript from '../assets/typescript.png';
-import node from '../assets/node (2).png';
-import mongo from '../assets/Mongodb (2).png';
+import node from '../assets/node-js.svg';
+import mongo from '../assets/Mongodb.svg';
 import express from '../assets/express.png';
-import github from '../assets/github (1).png';
+import github from '../assets/github.svg';
 import redux from '../assets/redux.png';
 import firebase from '../assets/firebase.png';
 
