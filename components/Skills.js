@@ -8,7 +8,7 @@ import javascript from '../assets/JS.png';
 import react from '../assets/react.png';
 import typescript from '../assets/typescript.png';
 import node from '../assets/node-js.svg';
-import mongo from '../assets/Mongodb.svg';
+import mongo from '../assets/mongodb.svg';
 import express from '../assets/express.png';
 import github from '../assets/github.svg';
 import redux from '../assets/redux.png';
