@@ -64,31 +64,56 @@ const Skills = () => {
         <div className="my-10">
           <Slider {...settings}>
             <div>
-              <Image src={javascript} className="w-24 h-24 mx-auto" />
+              <Image
+                src={javascript}
+                width={100}
+                height={100}
+                className="mx-auto"
+              />
             </div>
             <div>
-              <Image src={react} className="w-24 h-24 mx-auto" />
+              <Image src={react} width={100} height={100} className="mx-auto" />
             </div>
             <div>
-              <Image src={typescript} className="w-28 h-24 mx-auto" />
+              <Image
+                src={typescript}
+                width={100}
+                height={100}
+                className="mx-auto"
+              />
             </div>
             <div>
-              <Image src={node} className="w-56 h-24 mx-auto" />
+              <Image src={node} width={200} height={200} className="mx-auto" />
             </div>
             <div>
-              <Image src={mongo} className="w-24 h-24 mx-auto" />
+              <Image src={mongo} width={100} height={100} className="mx-auto" />
             </div>
             <div>
-              <Image src={express} className="w-24 h-24 mx-auto" />
+              <Image
+                src={express}
+                width={100}
+                height={100}
+                className="mx-auto"
+              />
             </div>
             <div>
-              <Image src={github} className="w-24 h-24 mx-auto" />
+              <Image
+                src={github}
+                width={100}
+                height={100}
+                className="mx-auto"
+              />
             </div>
             <div>
-              <Image src={redux} className="w-24 h-24 mx-auto" />
+              <Image src={redux} width={100} height={100} className="mx-auto" />
             </div>
             <div>
-              <Image src={firebase} className="w-24 h-24 mx-auto" />
+              <Image
+                src={firebase}
+                width={100}
+                height={100}
+                className="mx-auto"
+              />
             </div>
           </Slider>
         </div>

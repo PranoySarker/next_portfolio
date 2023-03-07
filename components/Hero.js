@@ -61,21 +61,21 @@ const Hero = () => {
             )}
           </div>
           <div className="flex space-x-6 pt-24 mr-8 md:mr-20">
-            <div className="w-7 h-7 cursor-pointer">
+            <div className="cursor-pointer">
               <Link href="https://github.com/PranoySarker" target="_blank">
-                <Image src={github} />
+                <Image src={github} width={30} height={30} />
               </Link>
             </div>
-            <div className="w-7 h-7 cursor-pointer">
+            <div className=" cursor-pointer">
               <Link
                 href="https://www.linkedin.com/in/pranoy-chandra-sarker-032b62118/"
                 target="_blank"
               >
-                <Image src={linkedin} />
+                <Image src={linkedin} width={30} height={30} />
               </Link>
             </div>
-            <div className="w-7 h-7 cursor-pointer">
-              <Image src={instagram} />
+            <div className=" cursor-pointer">
+              <Image src={instagram} width={30} height={30} />
             </div>
           </div>
         </div>
