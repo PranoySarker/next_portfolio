@@ -26,22 +26,6 @@ const Project = ({ project }) => {
               </button>
             </Link>
           </div>
-          <div className="card-actions w-44 mx-auto mt-1">
-            <div className="flex justify-between">
-              <Link href={`/details/${_id}`}>
-                {' '}
-                <button className="p-2 mt-3 border-solid border-2 border-slate-600 text-white rounded-full">
-                  Github
-                </button>
-              </Link>
-              <Link href={`/details/${_id}`}>
-                {' '}
-                <button className="p-2 mt-3 border-solid border-2 border-slate-600 text-white rounded-full">
-                  Live App
-                </button>
-              </Link>
-            </div>
-          </div>
         </div>
       </div>
     </div>

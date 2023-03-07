@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import MyProjects from '../components/MyProjects';
+import Skills from '../components/Skills';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <div className="">
         <Header></Header>
         <Hero></Hero>
+        <Skills></Skills>
         <MyProjects></MyProjects>
       </div>
     </div>

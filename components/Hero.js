@@ -4,6 +4,7 @@ import { BiToggleLeft, BiToggleRight, BiSun, BiMoon } from 'react-icons/bi';
 import github from '../assets/github (1).png';
 import linkedin from '../assets/linkedin (3).png';
 import instagram from '../assets/instagram.png';
+import headerImage from '../assets/header-img.svg';
 
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,17 +15,23 @@ const Hero = () => {
         {' '}
       </div>
       <div className="pt-[13.5rem] pl-10 md:pl-28 ">
-        <div className="max-w-2xl ">
-          <p className="text-[45px] md:text-7xl leading-[55px] md:leading-16 ">
-            Hi I am <span id="name">Pranoy</span>
-          </p>
-          <p className="text-[45px] md:text-7xl leading-[55px] md:leading-16">
-            Front End Developer
-          </p>
-          <p className="text-3xl md:text-4xl leading-12 md:leading-16">
-            Turning ideas into real life <span id="products">projects</span> is
-            my calling
-          </p>
+        <div className="flex flex-row gap-24">
+          <div className="max-w-2xl ">
+            <p className="text-[45px] md:text-7xl leading-[55px] md:leading-16 ">
+              Hi I am <span id="name">Pranoy</span>
+            </p>
+            <p className="text-[45px] md:text-7xl leading-[55px] md:leading-16">
+              Front End Developer
+            </p>
+            <p className="text-3xl md:text-4xl leading-12 md:leading-16">
+              Turning ideas into real life <span id="products">projects</span>{' '}
+              is my calling
+            </p>
+          </div>
+
+          <div className="w-96 h-96 hidden md:block" id="box">
+            <Image src={headerImage} />
+          </div>
         </div>
         <div className="pt-20 max-w-[8rem] group">
           <p className="text-[16px] leading-8 cursor-pointer">VIEW PROJETCS</p>
