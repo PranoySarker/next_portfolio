@@ -5,6 +5,7 @@ import github from '../assets/github (1).png';
 import linkedin from '../assets/linkedin (3).png';
 import instagram from '../assets/instagram.png';
 import headerImage from '../assets/header-img.svg';
+import Link from 'next/link';
 
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +35,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="pt-20 max-w-[8rem] group">
-          <p className="text-[16px] leading-8 cursor-pointer">VIEW PROJETCS</p>
+          <p className="text-[16px] leading-8 cursor-pointer">
+            <Link href="https://github.com/PranoySarker" target="_blank">
+              VIEW PROJETCS
+            </Link>
+          </p>
           <div className="border-b max-w-[2rem] pt-1 group-hover:max-w-[7rem] ease-out duration-500"></div>
         </div>
         <div className="flex justify-between">
@@ -57,10 +62,17 @@ const Hero = () => {
           </div>
           <div className="flex space-x-6 pt-24 mr-8 md:mr-20">
             <div className="w-7 h-7 cursor-pointer">
-              <Image src={github} />
+              <Link href="https://github.com/PranoySarker" target="_blank">
+                <Image src={github} />
+              </Link>
             </div>
             <div className="w-7 h-7 cursor-pointer">
-              <Image src={linkedin} />
+              <Link
+                href="https://www.linkedin.com/in/pranoy-chandra-sarker-032b62118/"
+                target="_blank"
+              >
+                <Image src={linkedin} />
+              </Link>
             </div>
             <div className="w-7 h-7 cursor-pointer">
               <Image src={instagram} />

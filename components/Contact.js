@@ -37,39 +37,6 @@ const Contact = () => {
       </div>
 
       <div className="">
-        {/* <div className="form-control mb-3">
-            <input
-              type="text"
-              name="email"
-              placeholder="Your email"
-              className="input input-bordered"
-              required
-            />
-          </div>
-          <div className="form-control mb-3">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              className="input input-bordered"
-              required
-            />
-          </div>
-          <div className="form-control">
-            <textarea
-              placeholder="type your message here"
-              name="message"
-              className="input input-bordered"
-              required
-            />
-          </div>
-          <div className="form-control mt-6">
-            <input
-              type="submit"
-              className="btn btn-secondary"
-              value="Message Me"
-            />
-          </div> */}
         <section
           id="contact"
           className="relative w-full min-h-screen text-white"
@@ -86,7 +53,7 @@ const Contact = () => {
                 {/* list */}
                 <div className="flex flex-col gap-3">
                   <a
-                    href="#"
+                    href="https://github.com/PranoySarker"
                     className="flex items-center hover:text-white hover:bg-purple-500 p-2 rounded-lg"
                   >
                     <svg
@@ -102,7 +69,7 @@ const Contact = () => {
                     Github
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/pranoy-chandra-sarker-032b62118/"
                     className="flex items-center hover:text-white hover:bg-purple-500 p-2 rounded-lg"
                   >
                     <svg
@@ -132,7 +99,7 @@ const Contact = () => {
                     Youtube
                   </a>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/pronay.sarker.568"
                     className="flex items-center hover:text-white hover:bg-purple-500 p-2 rounded-lg"
                   >
                     <svg
