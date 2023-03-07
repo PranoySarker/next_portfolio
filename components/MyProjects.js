@@ -15,7 +15,7 @@ const MyProjects = () => {
     <div className="text-white ">
       <div className="pt-12 pl-10 md:pl-28">
         <p className="text-[30px]">My Projects</p>
-        <p className="text-[18px]">
+        <p className="text-[18px] text-blue-400">
           Hello strangers! Here is some of my projects and details of them.
         </p>
       </div>

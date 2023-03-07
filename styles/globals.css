@@ -29,7 +29,7 @@ a {
     background: black;
   }
 }
-#name {
+#nam {
   background: linear-gradient(90deg, #4beecb, #e4f07a, #f8f7b7, #4beecb);
   background-size: 800%;
   -webkit-text-fill-color: transparent;

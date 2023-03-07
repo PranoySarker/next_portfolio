@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="flex flex-row gap-24">
           <div className="max-w-2xl ">
             <p className="text-[45px] md:text-7xl leading-[55px] md:leading-16 ">
-              Hi I am <span id="name">Pranoy</span>
+              Hi I am <span id="nam">Pranoy</span>
             </p>
             <p className="text-[45px] md:text-7xl leading-[55px] md:leading-16">
               Front End Developer

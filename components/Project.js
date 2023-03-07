@@ -6,7 +6,7 @@ const Project = ({ project }) => {
 
   return (
     <div className="my-5 ">
-      <div className="card w-96  bg-gray-500 bg-opacity-20 backdrop-blur-lg rounded-md drop-shadow-lg py-5">
+      <div className="card w-96  bg-gray-500 bg-opacity-20 backdrop-blur-lg rounded-md drop-shadow-lg py-5 border border-purple-400">
         <figure>
           <img
             src={image1}

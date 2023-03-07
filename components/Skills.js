@@ -57,7 +57,7 @@ const Skills = () => {
     <div className="my-5 text-white">
       <div className="pt-12 px-10 md:px-28 ">
         <p className="text-[30px]">Experience</p>
-        <p className="text-[18px]">
+        <p className="text-[18px] text-blue-400">
           The only source of KNOWLEDGE is EXPERIENCE -{' '}
           <span className="text-xs italic font-light">'Abert Einstein'</span>
         </p>
