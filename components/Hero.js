@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import { BiToggleLeft, BiToggleRight, BiSun, BiMoon } from 'react-icons/bi';
-import github from '../assets/github (1).png';
-import linkedin from '../assets/linkedin (3).png';
+import github from '../assets/github.svg';
+import linkedin from '../assets/linkedin.svg';
 import instagram from '../assets/instagram.png';
 import headerImage from '../assets/header-img.svg';
 import Link from 'next/link';
