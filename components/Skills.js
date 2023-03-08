@@ -61,7 +61,7 @@ const Skills = () => {
           The only source of KNOWLEDGE is EXPERIENCE -{' '}
           <span className="text-xs italic font-light">'Abert Einstein'</span>
         </p>
-        <div className="my-10">
+        <div className="mt-16">
           <Slider {...settings}>
             <div>
               <Image

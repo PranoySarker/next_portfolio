@@ -5,8 +5,8 @@ const Project = ({ project }) => {
   const { _id, name, image1 } = project;
 
   return (
-    <div className="my-5 ">
-      <div className="card w-96  bg-gray-500 bg-opacity-20 backdrop-blur-lg rounded-md drop-shadow-lg py-5 border border-purple-400">
+    <div className="my-16 ">
+      <div className="card w-64 md:w-96 bg-gray-500 bg-opacity-20 backdrop-blur-lg rounded-md drop-shadow-lg py-5 border border-purple-400 mx-auto">
         <figure>
           <img
             src={image1}
@@ -15,14 +15,18 @@ const Project = ({ project }) => {
             className="mx-auto rounded-md border border-gray-600"
           />
         </figure>
-        <div className="card-body w-64 mx-auto">
-          <h2 className="card-title text-center mt-2">{name}</h2>
-          <p>You can see the details of projects</p>
-          <div className="card-actions w-48 mx-auto">
+        <div className="card-body w-64 mx-auto mt-5">
+          <h2 className="card-title text-center mt-2 text-md md:text-xl">
+            {name}
+          </h2>
+          <p className="text-xs md:text-md text-center">
+            You can see the details of projects
+          </p>
+          <div className="card-actions w-32 mx-auto">
             <Link href={`/details/${_id}`}>
               {' '}
-              <button className="p-2 mt-3 border-solid border-2 border-slate-600 text-white rounded-full">
-                Click Here for details..
+              <button className="p-2 mt-3 border-solid border-2 border-slate-600 text-white text-sm md:text-lg rounded-full after:">
+                Click Here..
               </button>
             </Link>
           </div>

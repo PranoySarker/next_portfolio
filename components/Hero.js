@@ -18,13 +18,13 @@ const Hero = () => {
       <div className="pt-[13.5rem] pl-10 md:pl-28 ">
         <div className="flex flex-row gap-24">
           <div className="max-w-2xl ">
-            <p className="text-[45px] md:text-7xl leading-[55px] md:leading-16 ">
+            <p className="text-[35px] md:text-7xl leading-[25px] md:leading-16 ">
               Hi I am <span id="nam">Pranoy</span>
             </p>
-            <p className="text-[45px] md:text-7xl leading-[55px] md:leading-16">
+            <p className="text-[30px] md:text-5xl my-2 leading-[55px] md:leading-16">
               Front End Developer
             </p>
-            <p className="text-3xl md:text-4xl leading-12 md:leading-16">
+            <p className="text-2xl md:text-4xl leading-12 md:leading-16">
               Turning ideas into real life <span id="products">projects</span>{' '}
               is my calling
             </p>
