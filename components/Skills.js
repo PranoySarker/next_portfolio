@@ -1,18 +1,18 @@
-import Image from 'next/image';
-import React from 'react';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import Slider from 'react-slick';
+import Image from "next/image";
+import React from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
-import javascript from '../assets/JS.png';
-import react from '../assets/react.png';
-import typescript from '../assets/typescript.png';
-import node from '../assets/node-js.svg';
-import mongo from '../assets/mongodb.svg';
-import express from '../assets/express.png';
-import github from '../assets/github.svg';
-import redux from '../assets/redux.png';
-import firebase from '../assets/firebase.png';
+import javascript from "../assets/JS.png";
+import react from "../assets/react.png";
+import typescript from "../assets/typescript.png";
+import node from "../assets/node-js.svg";
+import mongo from "../assets/mongodb.svg";
+import express from "../assets/express.png";
+import github from "../assets/github.svg";
+import redux from "../assets/redux.png";
+import firebase from "../assets/firebase.png";
 
 const Skills = () => {
   const settings = {
@@ -24,7 +24,7 @@ const Skills = () => {
     speed: 2000,
     arrows: false,
     autoplaySpeed: 2000,
-    cssEase: 'linear',
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,
@@ -58,7 +58,7 @@ const Skills = () => {
       <div className="pt-12 px-10 md:px-28 ">
         <p className="text-[30px]">Experience</p>
         <p className="text-[18px] text-blue-400">
-          The only source of KNOWLEDGE is EXPERIENCE -{' '}
+          The only source of knowlwdge is experience -{" "}
           <span className="text-xs italic font-light">'Abert Einstein'</span>
         </p>
         <div className="mt-16">

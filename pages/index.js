@@ -1,13 +1,13 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import Hero from '../components/Hero';
-import MyProjects from '../components/MyProjects';
-import Skills from '../components/Skills';
-import styles from '../styles/Home.module.css';
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import MyProjects from "../components/MyProjects";
+import Skills from "../components/Skills";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -39,7 +39,7 @@ export default function Home() {
               <div className="cursor-pointer">
                 <p>
                   <Link
-                    href="https://drive.google.com/file/d/1Nhfj-etqigDqg4xlFd4VkBAUVPG204EW/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1SjpHXT15hHhM3Oo_t_Ggs62kIXojZAfy/view?usp=sharing"
                     target="_blank"
                   >
                     CV

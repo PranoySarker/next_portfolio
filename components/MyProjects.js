@@ -1,13 +1,13 @@
-import Image from 'next/image';
-import React, { useEffect, useState } from 'react';
-import Project from './Project';
-import num1 from '../assets/number1.svg';
+import Image from "next/image";
+import React, { useEffect, useState } from "react";
+import Project from "./Project";
+import num1 from "../assets/number1.svg";
 
 const MyProjects = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch('https://pranoysarker.github.io/projectapi/details.json')
+    fetch("https://pranoysarker.github.io/projectapi/details.json")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
@@ -16,7 +16,7 @@ const MyProjects = () => {
       <div className="pt-12 pl-10 md:pl-28">
         <p className="text-[30px]">My Projects</p>
         <p className="text-[18px] text-blue-400">
-          Hello strangers! Here is some of my projects and details of them.
+          Hello!! Here is some of my projects and details of them.
         </p>
       </div>
 
