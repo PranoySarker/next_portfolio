@@ -39,7 +39,7 @@ export default function Home() {
               <div className="cursor-pointer">
                 <p>
                   <Link
-                    href="https://drive.google.com/file/d/1SjpHXT15hHhM3Oo_t_Ggs62kIXojZAfy/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1MbQjQ-EZty_424DFU7yhAf5U_cwAiemr/view?usp=sharing"
                     target="_blank"
                   >
                     CV
